@@ -1,0 +1,3 @@
+find root/he_flux_mc_time/ | wc -l --> counts total items in a folder recursively
+find root/he_flux_mc_time/ -maxdepth 1 -mindepth 1 -type d -exec sh -c 'echo "{} : $(find "{}" -type f | wc -l)" file\(s\)' \; ->> counts items in each subdir seperately
+condor_q -l <jobId> -af MaxRuntime JobFlavour RequestCpus RequestMemory --> outputs information of submitted jobs

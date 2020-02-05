@@ -1,0 +1,87 @@
+WARN: the 'eosmount' alias is deprecated, please use /eos directly
+License ports: 28518@lxlicen01.cern.ch,28518@lxlicen02.cern.ch,28518@lxlicen03.cern.ch:/cvmfs/projects.cern.ch/intelsw/psxe/linux/licenses
+Intel(R) Parallel Studio XE 2018 Update 2 for Linux*
+Copyright (C) 2009-2018 Intel Corporation. All rights reserved.
+12061
+AMSCommonsI-I-HardwareIdentifiedAs Linux 3.10.0-957.10.1.el7.x86_64 x86_64 2
+AMSCommonsI-I-Identified as LittleEndian 64 bit machine. 4294967295
+AMSCommonsI-I-amsdatabase /cvmfs/ams.cern.ch/Offline/AMSDataDir/DataBase/
+AMSCommonsI-I-MipsFromCPUInfo: 2194.92
+AMSCommonsI-I-SystemIdentified as  Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+AMSCommonsI-I-ComputerEvaluatedAsMips 3511
+AMS Software version v5.02/1220/12 built Fri Apr 19 23:54:38 2019
+
+Geant4  Version 1033
+Run ID: 148 Bartel: 74
+Input Destination: /eos/ams/user/s/selu/mdst/He122/mdst_60441688.root
+Output Destination: /afs/cern.ch/work/c/ctuysuz/private/he_flux/LSF/result_mc_time/time_74/he_flux_74_148.root
+Add hist00 from /eos/ams/user/s/selu/mdst/He122/mdst_60441688.root
+Start of Init
+Use new binning
+Start of Eventloop
+Ntr, Nent= 1 435206
+IsMC= 1
+Parameter[0] = -2.51662
+Parameter[1] = -2.96375
+Parameter[2] = -3.57829
+Parameter[3] = -5.45844
+Parameter[4] = 0.103059
+Parameter[5] = -1.93983
+mdfil_info:  10.0%    3 sec CPU:  67.6%
+mdfil_info:  20.0%    5 sec CPU:  74.8%
+mdfil_info:  30.0%    8 sec CPU:  78.0%
+mdfil_info:  40.0%   10 sec CPU:  79.0%
+mdfil_info:  50.0%   13 sec CPU:  79.7%
+mdfil_info:  60.0%   15 sec CPU:  80.2%
+mdfil_info:  70.0%   17 sec CPU:  80.7%
+mdfil_info:  80.0%   19 sec CPU:  80.7%
+mdfil_info:  90.0%   22 sec CPU:  80.9%
+mdfil_info: 100.0%   26 sec CPU:  75.4%
+mdfil_info: 100.0%   26 sec CPU:  75.4%
+26776
+AMSCommonsI-I-HardwareIdentifiedAs Linux 3.10.0-957.10.1.el7.x86_64 x86_64 2
+AMSCommonsI-I-Identified as LittleEndian 64 bit machine. 4294967295
+AMSCommonsI-I-amsdatabase /cvmfs/ams.cern.ch/Offline/AMSDataDir/DataBase/
+AMSCommonsI-I-MipsFromCPUInfo: 2194.92
+AMSCommonsI-I-SystemIdentified as  Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+AMSCommonsI-I-ComputerEvaluatedAsMips 3511
+AMS Software version v5.02/1220/12 built Fri Apr 19 23:54:38 2019
+
+Geant4  Version 1033
+Run ID: 330 Bartel: 47
+41491
+AMSCommonsI-I-HardwareIdentifiedAs Linux 3.10.0-957.10.1.el7.x86_64 x86_64 2
+AMSCommonsI-I-Identified as LittleEndian 64 bit machine. 4294967295
+AMSCommonsI-I-amsdatabase /cvmfs/ams.cern.ch/Offline/AMSDataDir/DataBase/
+AMSCommonsI-I-MipsFromCPUInfo: 2194.92
+AMSCommonsI-I-SystemIdentified as  Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+AMSCommonsI-I-ComputerEvaluatedAsMips 3511
+AMS Software version v5.02/1220/12 built Fri Apr 19 23:54:38 2019
+
+Geant4  Version 1033
+Run ID: 512 Bartel: 20
+Input Destination: /eos/ams/user/s/selu/mdst/He314/mdst_120929913.root
+Output Destination: /afs/cern.ch/work/c/ctuysuz/private/he_flux/LSF/result_mc_time/time_20/he_flux_20_512.root
+Add hist00 from /eos/ams/user/s/selu/mdst/He314/mdst_120929913.root
+Start of Init
+Use new binning
+Start of Eventloop
+Ntr, Nent= 1 122429
+IsMC= 1
+Parameter[0] = -2.70518
+Parameter[1] = -3.02051
+Parameter[2] = -3.58999
+Parameter[3] = -5.56547
+Parameter[4] = 0.334526
+Parameter[5] = -2.62761
+mdfil_info:  10.0%    7 sec CPU:   9.5%
+mdfil_info:  20.0%   14 sec CPU:  10.1%
+mdfil_info:  30.0%   19 sec CPU:  10.7%
+mdfil_info:  40.0%   21 sec CPU:  12.7%
+mdfil_info:  50.0%   23 sec CPU:  13.8%
+mdfil_info:  60.0%   25 sec CPU:  15.2%
+mdfil_info:  70.0%   27 sec CPU:  16.5%
+mdfil_info:  80.0%   29 sec CPU:  17.8%
+mdfil_info:  90.0%   31 sec CPU:  18.7%
+mdfil_info: 100.0%   32 sec CPU:  19.4%
+mdfil_info: 100.0%   32 sec CPU:  19.4%

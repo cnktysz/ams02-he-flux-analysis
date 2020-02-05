@@ -1,0 +1,111 @@
+WARN: the 'eosmount' alias is deprecated, please use /eos directly
+License ports: 28518@lxlicen01.cern.ch,28518@lxlicen02.cern.ch,28518@lxlicen03.cern.ch:/cvmfs/projects.cern.ch/intelsw/psxe/linux/licenses
+Intel(R) Parallel Studio XE 2018 Update 2 for Linux*
+Copyright (C) 2009-2018 Intel Corporation. All rights reserved.
+5979
+AMSCommonsI-I-HardwareIdentifiedAs Linux 3.10.0-957.12.2.el7.x86_64 x86_64 2
+AMSCommonsI-I-Identified as LittleEndian 64 bit machine. 4294967295
+AMSCommonsI-I-amsdatabase /cvmfs/ams.cern.ch/Offline/AMSDataDir/DataBase/
+AMSCommonsI-I-MipsFromCPUInfo: 2394.45
+AMSCommonsI-I-SystemIdentified as  Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+AMSCommonsI-I-ComputerEvaluatedAsMips 3831
+AMS Software version v5.02/1220/12 built Fri Apr 19 23:54:38 2019
+
+Geant4  Version 1033
+Run ID: 73 Bartel: 67
+Input Destination: /eos/ams/user/s/selu/mdst/He122/mdst_60441613.root
+Output Destination: /afs/cern.ch/work/c/ctuysuz/private/he_flux/LSF/result_mc_time/time_67/he_flux_67_73.root
+Add hist00 from /eos/ams/user/s/selu/mdst/He122/mdst_60441613.root
+Start of Init
+Use new binning
+Start of Eventloop
+Ntr, Nent= 1 437090
+IsMC= 1
+Parameter[0] = -2.58662
+Parameter[1] = -2.98984
+Parameter[2] = -3.59559
+Parameter[3] = -5.5153
+Parameter[4] = 0.161079
+Parameter[5] = -2.33345
+mdfil_info:  10.0%    2 sec CPU:  76.0%
+mdfil_info:  20.0%    4 sec CPU:  81.9%
+mdfil_info:  30.0%    5 sec CPU:  83.7%
+mdfil_info:  40.0%    7 sec CPU:  84.9%
+mdfil_info:  50.0%    9 sec CPU:  85.2%
+mdfil_info:  60.0%   10 sec CPU:  85.8%
+mdfil_info:  70.0%   12 sec CPU:  86.0%
+mdfil_info:  80.0%   14 sec CPU:  86.3%
+mdfil_info:  90.0%   15 sec CPU:  86.5%
+mdfil_info: 100.0%   17 sec CPU:  86.7%
+20694
+AMSCommonsI-I-HardwareIdentifiedAs Linux 3.10.0-957.12.2.el7.x86_64 x86_64 2
+AMSCommonsI-I-Identified as LittleEndian 64 bit machine. 4294967295
+AMSCommonsI-I-amsdatabase /cvmfs/ams.cern.ch/Offline/AMSDataDir/DataBase/
+AMSCommonsI-I-MipsFromCPUInfo: 2394.45
+AMSCommonsI-I-SystemIdentified as  Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+AMSCommonsI-I-ComputerEvaluatedAsMips 3831
+AMS Software version v5.02/1220/12 built Fri Apr 19 23:54:38 2019
+
+Geant4  Version 1033
+Run ID: 255 Bartel: 40
+Input Destination: /eos/ams/user/s/selu/mdst/He122/mdst_60441795.root
+Output Destination: /afs/cern.ch/work/c/ctuysuz/private/he_flux/LSF/result_mc_time/time_40/he_flux_40_255.root
+Add hist00 from /eos/ams/user/s/selu/mdst/He122/mdst_60441795.root
+Start of Init
+Use new binning
+Start of Eventloop
+Ntr, Nent= 1 438021
+IsMC= 1
+Parameter[0] = -2.8011
+Parameter[1] = -3.07357
+Parameter[2] = -3.62055
+Parameter[3] = -5.55933
+Parameter[4] = 0.549697
+Parameter[5] = -2.37552
+mdfil_info:  10.0%    2 sec CPU:  78.1%
+mdfil_info:  20.0%    4 sec CPU:  83.9%
+mdfil_info:  30.0%    5 sec CPU:  86.2%
+mdfil_info:  40.0%    7 sec CPU:  86.9%
+mdfil_info:  50.0%    8 sec CPU:  87.6%
+mdfil_info:  60.0%   10 sec CPU:  88.3%
+mdfil_info:  70.0%   11 sec CPU:  88.5%
+mdfil_info:  80.0%   13 sec CPU:  88.7%
+mdfil_info:  90.0%   15 sec CPU:  88.7%
+mdfil_info: 100.0%   16 sec CPU:  88.8%
+mdfil_info: 100.0%   16 sec CPU:  88.8%
+35409
+AMSCommonsI-I-HardwareIdentifiedAs Linux 3.10.0-957.12.2.el7.x86_64 x86_64 2
+AMSCommonsI-I-Identified as LittleEndian 64 bit machine. 4294967295
+AMSCommonsI-I-amsdatabase /cvmfs/ams.cern.ch/Offline/AMSDataDir/DataBase/
+AMSCommonsI-I-MipsFromCPUInfo: 2394.45
+AMSCommonsI-I-SystemIdentified as  Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+AMSCommonsI-I-ComputerEvaluatedAsMips 3831
+AMS Software version v5.02/1220/12 built Fri Apr 19 23:54:38 2019
+
+Geant4  Version 1033
+Run ID: 437 Bartel: 13
+Input Destination: /eos/ams/user/s/selu/mdst/He122/mdst_60442325.root
+Output Destination: /afs/cern.ch/work/c/ctuysuz/private/he_flux/LSF/result_mc_time/time_13/he_flux_13_437.root
+Add hist00 from /eos/ams/user/s/selu/mdst/He122/mdst_60442325.root
+Start of Init
+Use new binning
+Start of Eventloop
+Ntr, Nent= 1 437265
+IsMC= 1
+Parameter[0] = -2.65893
+Parameter[1] = -3.01855
+Parameter[2] = -3.59704
+Parameter[3] = -5.53516
+Parameter[4] = 0.293906
+Parameter[5] = -2.25131
+mdfil_info:  10.0%    2 sec CPU:  81.6%
+mdfil_info:  20.0%    4 sec CPU:  86.7%
+mdfil_info:  30.0%    5 sec CPU:  88.6%
+mdfil_info:  40.0%    7 sec CPU:  89.7%
+mdfil_info:  50.0%    8 sec CPU:  90.2%
+mdfil_info:  60.0%   10 sec CPU:  90.7%
+mdfil_info:  70.0%   12 sec CPU:  91.0%
+mdfil_info:  80.0%   13 sec CPU:  91.2%
+mdfil_info:  90.0%   15 sec CPU:  91.3%
+mdfil_info: 100.0%   16 sec CPU:  91.4%
+mdfil_info: 100.0%   16 sec CPU:  91.4%

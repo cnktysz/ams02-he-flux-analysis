@@ -1,0 +1,17 @@
+TIME DEPENDENT ANALYSIS:
+
+MC data production and unfolding:
+
+1)  To produce first MC weights use published flux (Hawaii) and obtain the weights as usual.
+2)  Obtain different weights for each time bin 81 in this case
+3)  Print the results of the spline fit to a file -> weight_list.txt
+4)  In the analysis code(mdfil.C) every run will take these weights and run (so 81 times in total)
+5)  There will be a lot of output root files 449*81 in total (omitting the fact that you wont have any from bins 47,48 since they are empty)
+6)  First use create_time_folders.sh to create 81 folders
+7)  Then, copy all root files to corresponding folders with organize_time_root_files.sh
+8)  Finally, use combine_time_root_files to merge them obtaining a single file for each bin
+9)  Now, it is time to compute acceptances
+10) acceptance_time.C will take 81 root files and iss root file and create acceptance_time.root which will have a TH2F with effective acceptances for every time bin
+11) HeFlux_time.C will take the effective acceptances and use the ISS data to compute and plot time dependent flux.
+12) calculate new mc weights
+13) go to 4

@@ -1,0 +1,9 @@
+executable 		= /afs/cern.ch/work/c/ctuysuz/private/he_flux/macro/Analysis3.sh 
+arguments 		= $(ClusterId) $(ProcId)
+output 			= /afs/cern.ch/work/c/ctuysuz/private/he_flux/LSF/output/output_$(ClusterId)_$(ProcId).out
+error 			= /afs/cern.ch/work/c/ctuysuz/private/he_flux/LSF/error/error_$(ClusterId)_$(ProcId).err
+log			= /afs/cern.ch/work/c/ctuysuz/private/he_flux/LSF/log/log_$(ClusterId)_$(ProcId).log
+request_cpus		= 2
++MaxRuntime		= 10000
+queue  14715 
+

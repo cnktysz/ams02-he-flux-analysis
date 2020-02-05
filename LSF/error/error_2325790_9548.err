@@ -1,0 +1,16 @@
+fusermount: entry for /afs/cern.ch/user/c/ctuysuz/eos not found in /etc/mtab
+WARN: '/afs/cern.ch/project/eos/installation/0.3.15/bin/eos.select' is deprecated, using local '/usr/bin/eos' binary on b7g28n0223.cern.ch instead
+===> Mountpoint   : /afs/cern.ch/user/c/ctuysuz/eos
+===> Fuse-Options : max_readahead=131072,max_write=4194304,fsname=eosams.cern.ch,url=root://eosams.cern.ch//eos/
+===> fuse readahead        : 1
+===> fuse readahead-window : 1048576
+===> fuse debug            : 0
+===> fuse low-level debug  : 0
+===> fuse log-level        : 5
+===> fuse write-cache      : 1
+===> fuse write-cache-size : 67108864
+===> fuse rm level protect : 1
+===> fuse lazy-open-ro     : 0
+===> fuse lazy-open-rw     : 1
+==== fuse multi-threading  : true
+info: successfully mounted EOS [root://eosams.cern.ch] under /afs/cern.ch/user/c/ctuysuz/eos

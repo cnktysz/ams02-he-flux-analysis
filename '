@@ -1,0 +1,56 @@
+//#include "trigger_eff.C"
+void acceptance(TFile* ISS_data,TFile* MC_data,bool save_plots,bool display_plots){
+	
+	TH1D *acceptance_ = acceptance_MC(MC_data,1);
+	//TH1D *trigger_eff = trigger_eff_calculate(ISS_data,0,0);
+	//acceptance_->Multiply(trigger_eff);
+
+	// Plot Eff.
+	TCanvas *canvas_acceptance = new TCanvas("Acceptance","Acceptance",600,400);
+	gPad->SetLogx();
+	acceptance_->GetXaxis()->SetRangeUser(1,2000);
+	//acceptance_->GetYaxis()->SetRangeUser(0,0.15);	
+	//acceptance_->GetYaxis()->SetTitleSize(10);
+	//acceptance_->GetXaxis()->SetTitleSize(10);
+	//acceptance_->GetYaxis()->SetTitleFont(43);
+	//acceptance_->GetYaxis()->SetLabelFont(43);
+	//acceptance_->GetYaxis()->SetLabelSize(10);
+	acceptance_->SetMarkerStyle(20);
+	acceptance_->SetMarkerColor(1);
+	acceptance_->SetMarkerSize(0.8);
+	acceptance_->SetTitle("Monte Carlo Acceptance vs Rigidity");
+	//acceptance_->SetTitleSize(13);
+	acceptance_->GetXaxis()->SetTitle("Rigidity [GV]");
+	acceptance_->GetYaxis()->SetTitle("Acceptance [m^{2} sr]");	
+	acceptance_->Draw("P");
+	if(save_plots) canvas_acceptance->SaveAs("png/Acceptance.png");
+	if(canvas_acceptance && !display_plots) canvas_acceptance->Close();
+
+	gROOT->Reset();
+}
+
+TH1D* acceptance_MC(TFile* data,bool save_plots)
+{
+	gROOT->Reset();
+	TH2F* gen_time = (TH2F*)data->Get("He_generated")->Clone("He_generated");
+	TH2F* genW_time = (TH2F*)data->Get("He_generated_weighted")->Clone("He_generated_weighted");
+	TH2F* selected_time = (TH2F*)data->Get("HeFlux")->Clone("HeFlux");
+	TH2F* selectedW_time = (TH2F*)data->Get("He_selected_weighted")->Clone("He_selected_weighted");
+	TH1D* selected = selected_time->ProjectionY();
+	TH1D* selectedW = selectedW_time->ProjectionY();	
+	TH1D* genW = genW_time->ProjectionY();
+	TH1D* gen = gen_time->ProjectionY();
+	// Renormalize weighted events
+	int Nentries_gen = gen_time->GetEntries();
+	int Nentries_sel = selected_time->GetEntries();
+	cout << Nentries_gen << endl;
+	//genW->Scale(Nentries_gen);
+	//selectedW->Scale(Nentries_sel);
+
+	TH1D* acceptance = (TH1D*)selected->Clone();
+	acceptance->Divide(gen);
+	acceptance->Scale(47.78);
+	return(acceptance);
+}
+
+
